@@ -1,0 +1,7 @@
+.env
+.DS_Store
+__pycache__/
+.claude/
+
+# Cache files (can be regenerated, large)
+**/.cache/
