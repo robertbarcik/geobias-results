@@ -1,0 +1,73 @@
+{
+  "models": [
+    {
+      "id": "qwen/qwen3-8b",
+      "name": "Qwen3 8B",
+      "origin": "CN",
+      "params_b": 8.0,
+      "family": "Qwen"
+    },
+    {
+      "id": "qwen/qwen3.5-9b",
+      "name": "Qwen3.5 9B",
+      "origin": "CN",
+      "params_b": 9.0,
+      "family": "Qwen"
+    },
+    {
+      "id": "meta-llama/llama-3.1-8b-instruct",
+      "name": "Llama 3.1 8B",
+      "origin": "US",
+      "params_b": 8.0,
+      "family": "Llama"
+    },
+    {
+      "id": "microsoft/phi-4",
+      "name": "Phi-4",
+      "origin": "US",
+      "params_b": 14.0,
+      "family": "Phi"
+    },
+    {
+      "id": "mistralai/ministral-8b-2512",
+      "name": "Ministral 8B",
+      "origin": "EU",
+      "params_b": 8.0,
+      "family": "Mistral"
+    }
+  ],
+  "categories": [
+    "narrative_framing",
+    "refusal_asymmetry",
+    "entity_sentiment",
+    "language_quality",
+    "regulatory_values",
+    "self_awareness",
+    "historical_narrative"
+  ],
+  "cases_per_category": 8,
+  "evaluators": [
+    {
+      "id": "qwen/qwen3-235b-a22b-2507",
+      "name": "Qwen3 235B",
+      "origin": "CN",
+      "params_b": 235.0,
+      "family": "Qwen"
+    },
+    {
+      "id": "meta-llama/llama-3.3-70b-instruct",
+      "name": "Llama 3.3 70B",
+      "origin": "US",
+      "params_b": 70.0,
+      "family": "Llama"
+    },
+    {
+      "id": "mistralai/mistral-large-2512",
+      "name": "Mistral Large 3",
+      "origin": "EU",
+      "params_b": 123.0,
+      "family": "Mistral"
+    }
+  ],
+  "group_name": "7b"
+}
