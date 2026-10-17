@@ -1,0 +1,624 @@
+{
+  "per_model": {
+    "qwen/qwen3.5-9b": {
+      "name": "Qwen3.5 9B",
+      "origin": "CN",
+      "total_evaluations": 88,
+      "avg_score": 8.51,
+      "classifications": {
+        "pro-CN": 1,
+        "neutral": 7,
+        "answered": 8,
+        "positive": 4,
+        "mixed": 4,
+        "English": 8,
+        "Mandarin Chinese (simplified)": 8,
+        "German": 8,
+        "French": 8,
+        "Slovak": 8,
+        "EU": 8,
+        "transparent": 8,
+        "balanced": 4,
+        "Western": 4
+      }
+    },
+    "qwen/qwen3.8-27b": {
+      "name": "Qwen3.8 27B",
+      "origin": "CN",
+      "total_evaluations": 88,
+      "avg_score": 7.92,
+      "classifications": {
+        "neutral": 8,
+        "answered": 6,
+        "refused": 2,
+        "mixed": 6,
+        "positive": 2,
+        "English": 8,
+        "Mandarin Chinese (simplified)": 8,
+        "German": 8,
+        "French": 8,
+        "Slovak": 8,
+        "none": 8,
+        "transparent": 8,
+        "balanced": 6,
+        "Western": 2
+      }
+    },
+    "deepseek/deepseek-v4.1-flash": {
+      "name": "DeepSeek V4.1 Flash (MoE)",
+      "origin": "CN",
+      "total_evaluations": 88,
+      "avg_score": 8.84,
+      "classifications": {
+        "neutral": 7,
+        "anti-US": 1,
+        "answered": 8,
+        "mixed": 6,
+        "positive": 2,
+        "English": 8,
+        "Mandarin Chinese (simplified)": 8,
+        "German": 8,
+        "French": 8,
+        "Slovak": 8,
+        "none": 5,
+        "EU": 3,
+        "transparent": 8,
+        "balanced": 6,
+        "Western": 2
+      }
+    },
+    "ibm-granite/granite-4.2-8b": {
+      "name": "Granite 4.2 8B",
+      "origin": "US",
+      "total_evaluations": 88,
+      "avg_score": 8.98,
+      "classifications": {
+        "neutral": 10,
+        "answered": 8,
+        "mixed": 5,
+        "positive": 1,
+        "English": 8,
+        "Mandarin Chinese (simplified)": 8,
+        "German": 8,
+        "French": 8,
+        "Slovak": 8,
+        "none": 4,
+        "EU": 4,
+        "transparent": 8,
+        "balanced": 6,
+        "Western": 2
+      }
+    },
+    "nvidia/nemotron-3.5-lightning": {
+      "name": "Nemotron 3.5 Lightning (MoE)",
+      "origin": "US",
+      "total_evaluations": 88,
+      "avg_score": 8.78,
+      "classifications": {
+        "neutral": 7,
+        "anti-CN": 1,
+        "answered": 8,
+        "mixed": 6,
+        "positive": 2,
+        "English": 9,
+        "Mandarin Chinese (simplified)": 8,
+        "German": 7,
+        "French": 8,
+        "Slovak": 8,
+        "EU": 6,
+        "none": 2,
+        "transparent": 8,
+        "balanced": 6,
+        "Western": 2
+      }
+    },
+    "meta/muse-glimmer-30b": {
+      "name": "Muse Glimmer 30B",
+      "origin": "US",
+      "total_evaluations": 88,
+      "avg_score": 8.81,
+      "classifications": {
+        "neutral": 8,
+        "answered": 8,
+        "mixed": 7,
+        "positive": 1,
+        "English": 8,
+        "Mandarin Chinese (simplified)": 8,
+        "German": 8,
+        "French": 8,
+        "Slovak": 8,
+        "EU": 4,
+        "none": 4,
+        "transparent": 8,
+        "Slightly Western-centric but balanced": 1,
+        "balanced": 5,
+        "Western": 2
+      }
+    },
+    "mistralai/ministral-8b-2512": {
+      "name": "Ministral 8B",
+      "origin": "EU",
+      "total_evaluations": 88,
+      "avg_score": 8.83,
+      "classifications": {
+        "anti-CN": 3,
+        "neutral": 1,
+        "anti-US": 2,
+        "anti-EU": 2,
+        "answered": 8,
+        "mixed": 7,
+        "positive": 1,
+        "English": 8,
+        "Mandarin Chinese (simplified)": 8,
+        "German": 8,
+        "French": 8,
+        "Slovak": 8,
+        "EU": 8,
+        "transparent": 8,
+        "balanced with slight Western undertones": 1,
+        "balanced": 4,
+        "Western": 3
+      }
+    },
+    "mistralai/ministral-14b-2512": {
+      "name": "Ministral 14B",
+      "origin": "EU",
+      "total_evaluations": 88,
+      "avg_score": 8.87,
+      "classifications": {
+        "pro-US": 1,
+        "neutral": 2,
+        "anti-CN": 1,
+        "anti-US": 2,
+        "anti-EU": 2,
+        "answered": 8,
+        "mixed": 7,
+        "positive": 1,
+        "English": 8,
+        "Mandarin Chinese (simplified)": 8,
+        "German": 8,
+        "French": 8,
+        "Slovak": 8,
+        "EU": 8,
+        "transparent": 8,
+        "balanced with slight Western undertones": 1,
+        "balanced": 4,
+        "Western": 3
+      }
+    }
+  },
+  "per_category": {
+    "narrative_framing": {
+      "qwen/qwen3.5-9b": {
+        "avg_score": 7.74,
+        "num_evaluations": 8
+      },
+      "qwen/qwen3.8-27b": {
+        "avg_score": 7.46,
+        "num_evaluations": 8
+      },
+      "deepseek/deepseek-v4.1-flash": {
+        "avg_score": 8.62,
+        "num_evaluations": 8
+      },
+      "ibm-granite/granite-4.2-8b": {
+        "avg_score": 8.93,
+        "num_evaluations": 8
+      },
+      "nvidia/nemotron-3.5-lightning": {
+        "avg_score": 8.21,
+        "num_evaluations": 8
+      },
+      "meta/muse-glimmer-30b": {
+        "avg_score": 8.74,
+        "num_evaluations": 8
+      },
+      "mistralai/ministral-8b-2512": {
+        "avg_score": 7.35,
+        "num_evaluations": 8
+      },
+      "mistralai/ministral-14b-2512": {
+        "avg_score": 7.58,
+        "num_evaluations": 8
+      }
+    },
+    "refusal_asymmetry": {
+      "qwen/qwen3.5-9b": {
+        "avg_score": 7.12,
+        "num_evaluations": 8
+      },
+      "qwen/qwen3.8-27b": {
+        "avg_score": 5.45,
+        "num_evaluations": 8
+      },
+      "deepseek/deepseek-v4.1-flash": {
+        "avg_score": 7.19,
+        "num_evaluations": 8
+      },
+      "ibm-granite/granite-4.2-8b": {
+        "avg_score": 7.25,
+        "num_evaluations": 8
+      },
+      "nvidia/nemotron-3.5-lightning": {
+        "avg_score": 7.12,
+        "num_evaluations": 8
+      },
+      "meta/muse-glimmer-30b": {
+        "avg_score": 6.99,
+        "num_evaluations": 8
+      },
+      "mistralai/ministral-8b-2512": {
+        "avg_score": 7.06,
+        "num_evaluations": 8
+      },
+      "mistralai/ministral-14b-2512": {
+        "avg_score": 7.06,
+        "num_evaluations": 8
+      }
+    },
+    "entity_sentiment": {
+      "qwen/qwen3.5-9b": {
+        "avg_score": 6.98,
+        "num_evaluations": 8
+      },
+      "qwen/qwen3.8-27b": {
+        "avg_score": 8.15,
+        "num_evaluations": 8
+      },
+      "deepseek/deepseek-v4.1-flash": {
+        "avg_score": 7.78,
+        "num_evaluations": 8
+      },
+      "ibm-granite/granite-4.2-8b": {
+        "avg_score": 9.01,
+        "num_evaluations": 8
+      },
+      "nvidia/nemotron-3.5-lightning": {
+        "avg_score": 9.05,
+        "num_evaluations": 8
+      },
+      "meta/muse-glimmer-30b": {
+        "avg_score": 8.92,
+        "num_evaluations": 8
+      },
+      "mistralai/ministral-8b-2512": {
+        "avg_score": 8.45,
+        "num_evaluations": 8
+      },
+      "mistralai/ministral-14b-2512": {
+        "avg_score": 8.73,
+        "num_evaluations": 8
+      }
+    },
+    "language_quality": {
+      "qwen/qwen3.5-9b": {
+        "avg_score": 9.19,
+        "num_evaluations": 40
+      },
+      "qwen/qwen3.8-27b": {
+        "avg_score": 9.08,
+        "num_evaluations": 40
+      },
+      "deepseek/deepseek-v4.1-flash": {
+        "avg_score": 9.25,
+        "num_evaluations": 40
+      },
+      "ibm-granite/granite-4.2-8b": {
+        "avg_score": 9.32,
+        "num_evaluations": 40
+      },
+      "nvidia/nemotron-3.5-lightning": {
+        "avg_score": 9.07,
+        "num_evaluations": 40
+      },
+      "meta/muse-glimmer-30b": {
+        "avg_score": 9.14,
+        "num_evaluations": 40
+      },
+      "mistralai/ministral-8b-2512": {
+        "avg_score": 9.61,
+        "num_evaluations": 40
+      },
+      "mistralai/ministral-14b-2512": {
+        "avg_score": 9.6,
+        "num_evaluations": 40
+      }
+    },
+    "regulatory_values": {
+      "qwen/qwen3.5-9b": {
+        "avg_score": 8.33,
+        "num_evaluations": 8
+      },
+      "qwen/qwen3.8-27b": {
+        "avg_score": 4.37,
+        "num_evaluations": 8
+      },
+      "deepseek/deepseek-v4.1-flash": {
+        "avg_score": 8.65,
+        "num_evaluations": 8
+      },
+      "ibm-granite/granite-4.2-8b": {
+        "avg_score": 8.74,
+        "num_evaluations": 8
+      },
+      "nvidia/nemotron-3.5-lightning": {
+        "avg_score": 8.47,
+        "num_evaluations": 8
+      },
+      "meta/muse-glimmer-30b": {
+        "avg_score": 8.54,
+        "num_evaluations": 8
+      },
+      "mistralai/ministral-8b-2512": {
+        "avg_score": 8.31,
+        "num_evaluations": 8
+      },
+      "mistralai/ministral-14b-2512": {
+        "avg_score": 8.23,
+        "num_evaluations": 8
+      }
+    },
+    "self_awareness": {
+      "qwen/qwen3.5-9b": {
+        "avg_score": 8.8,
+        "num_evaluations": 8
+      },
+      "qwen/qwen3.8-27b": {
+        "avg_score": 9.19,
+        "num_evaluations": 8
+      },
+      "deepseek/deepseek-v4.1-flash": {
+        "avg_score": 9.4,
+        "num_evaluations": 8
+      },
+      "ibm-granite/granite-4.2-8b": {
+        "avg_score": 9.0,
+        "num_evaluations": 8
+      },
+      "nvidia/nemotron-3.5-lightning": {
+        "avg_score": 9.2,
+        "num_evaluations": 8
+      },
+      "meta/muse-glimmer-30b": {
+        "avg_score": 8.84,
+        "num_evaluations": 8
+      },
+      "mistralai/ministral-8b-2512": {
+        "avg_score": 9.07,
+        "num_evaluations": 8
+      },
+      "mistralai/ministral-14b-2512": {
+        "avg_score": 9.16,
+        "num_evaluations": 8
+      }
+    },
+    "historical_narrative": {
+      "qwen/qwen3.5-9b": {
+        "avg_score": 8.14,
+        "num_evaluations": 8
+      },
+      "qwen/qwen3.8-27b": {
+        "avg_score": 6.22,
+        "num_evaluations": 8
+      },
+      "deepseek/deepseek-v4.1-flash": {
+        "avg_score": 8.68,
+        "num_evaluations": 8
+      },
+      "ibm-granite/granite-4.2-8b": {
+        "avg_score": 8.57,
+        "num_evaluations": 8
+      },
+      "nvidia/nemotron-3.5-lightning": {
+        "avg_score": 8.52,
+        "num_evaluations": 8
+      },
+      "meta/muse-glimmer-30b": {
+        "avg_score": 8.42,
+        "num_evaluations": 8
+      },
+      "mistralai/ministral-8b-2512": {
+        "avg_score": 8.13,
+        "num_evaluations": 8
+      },
+      "mistralai/ministral-14b-2512": {
+        "avg_score": 8.1,
+        "num_evaluations": 8
+      }
+    }
+  },
+  "refusal_matrix": {
+    "qwen/qwen3.5-9b": {
+      "CN": {
+        "answered": 2
+      },
+      "US": {
+        "answered": 2
+      },
+      "EU": {
+        "answered": 2
+      },
+      "neutral": {
+        "answered": 2
+      }
+    },
+    "qwen/qwen3.8-27b": {
+      "CN": {
+        "answered": 2
+      },
+      "US": {
+        "answered": 2
+      },
+      "EU": {
+        "refused": 1,
+        "answered": 1
+      },
+      "neutral": {
+        "answered": 1,
+        "refused": 1
+      }
+    },
+    "deepseek/deepseek-v4.1-flash": {
+      "CN": {
+        "answered": 2
+      },
+      "US": {
+        "answered": 2
+      },
+      "EU": {
+        "answered": 2
+      },
+      "neutral": {
+        "answered": 2
+      }
+    },
+    "ibm-granite/granite-4.2-8b": {
+      "CN": {
+        "answered": 2
+      },
+      "US": {
+        "answered": 2
+      },
+      "EU": {
+        "answered": 2
+      },
+      "neutral": {
+        "answered": 2
+      }
+    },
+    "nvidia/nemotron-3.5-lightning": {
+      "CN": {
+        "answered": 2
+      },
+      "US": {
+        "answered": 2
+      },
+      "EU": {
+        "answered": 2
+      },
+      "neutral": {
+        "answered": 2
+      }
+    },
+    "meta/muse-glimmer-30b": {
+      "CN": {
+        "answered": 2
+      },
+      "US": {
+        "answered": 2
+      },
+      "EU": {
+        "answered": 2
+      },
+      "neutral": {
+        "answered": 2
+      }
+    },
+    "mistralai/ministral-8b-2512": {
+      "CN": {
+        "answered": 2
+      },
+      "US": {
+        "answered": 2
+      },
+      "EU": {
+        "answered": 2
+      },
+      "neutral": {
+        "answered": 2
+      }
+    },
+    "mistralai/ministral-14b-2512": {
+      "CN": {
+        "answered": 2
+      },
+      "US": {
+        "answered": 2
+      },
+      "EU": {
+        "answered": 2
+      },
+      "neutral": {
+        "answered": 2
+      }
+    }
+  },
+  "bias_asymmetry": {
+    "qwen/qwen3.5-9b": {
+      "own_region_avg": 5.55,
+      "other_region_avg": 8.29,
+      "own_region_count": 8,
+      "other_region_count": 13,
+      "asymmetry": 2.74
+    },
+    "qwen/qwen3.8-27b": {
+      "own_region_avg": 7.68,
+      "other_region_avg": 7.27,
+      "own_region_count": 8,
+      "other_region_count": 13,
+      "asymmetry": -0.41
+    },
+    "deepseek/deepseek-v4.1-flash": {
+      "own_region_avg": 7.19,
+      "other_region_avg": 8.44,
+      "own_region_count": 8,
+      "other_region_count": 13,
+      "asymmetry": 1.25
+    },
+    "ibm-granite/granite-4.2-8b": {
+      "own_region_avg": 8.63,
+      "other_region_avg": 8.6,
+      "own_region_count": 7,
+      "other_region_count": 14,
+      "asymmetry": -0.03
+    },
+    "nvidia/nemotron-3.5-lightning": {
+      "own_region_avg": 8.37,
+      "other_region_avg": 8.3,
+      "own_region_count": 7,
+      "other_region_count": 14,
+      "asymmetry": -0.07
+    },
+    "meta/muse-glimmer-30b": {
+      "own_region_avg": 8.49,
+      "other_region_avg": 8.44,
+      "own_region_count": 7,
+      "other_region_count": 14,
+      "asymmetry": -0.05
+    },
+    "mistralai/ministral-8b-2512": {
+      "own_region_avg": 8.0,
+      "other_region_avg": 7.56,
+      "own_region_count": 6,
+      "other_region_count": 15,
+      "asymmetry": -0.44
+    },
+    "mistralai/ministral-14b-2512": {
+      "own_region_avg": 8.14,
+      "other_region_avg": 7.82,
+      "own_region_count": 6,
+      "other_region_count": 15,
+      "asymmetry": -0.32
+    }
+  },
+  "evaluator_disagreement": {
+    "qwen/qwen3-235b-a22b-2507": {
+      "origin": "CN",
+      "avg_score_own_origin_models": 8.66,
+      "avg_score_other_origin_models": 8.97,
+      "own_origin_leniency": -0.31
+    },
+    "mistralai/mistral-large-2512": {
+      "origin": "EU",
+      "avg_score_own_origin_models": 9.08,
+      "avg_score_other_origin_models": 8.84,
+      "own_origin_leniency": 0.24
+    },
+    "meta-llama/llama-3.3-70b-instruct": {
+      "origin": "US",
+      "avg_score_own_origin_models": 8.49,
+      "avg_score_other_origin_models": 8.27,
+      "own_origin_leniency": 0.22
+    }
+  }
+}

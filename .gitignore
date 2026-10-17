@@ -5,3 +5,4 @@ __pycache__/
 
 # Cache files (can be regenerated, large)
 **/.cache/
+**/.cache_quarantine_*/
